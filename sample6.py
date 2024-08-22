@@ -1,0 +1,24 @@
+x={"apple","cup","desk"}
+print(x)
+print(type(x))
+print(len(x))
+for i in x:
+    print(i)
+x.add("red")
+print(x)
+y={"pen","blue","black"}
+x.update(y)
+print(x)
+#x.remove("banana")
+#print(x)
+x.discard("potato")
+print(x)
+z=x.union(y)
+d={"cap","glass","ball"}
+c={"cap","pen","desk"}
+f=d.intersection(c)
+print(f)
+h=d.difference(c)
+print(h)
+g=d.copy()
+print(g)
